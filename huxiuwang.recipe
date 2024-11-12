@@ -8,7 +8,7 @@ class AdvancedUserRecipe1730873564(BasicNewsRecipe):
     oldest_article = 7
     max_articles_per_feed = 100
     auto_cleanup   = True
-
+    compress_news_images = True
     feeds          = [
         ('\u864e\u55c5\u7f51', 'https://rsshub.rssforever.com/huxiu/article'),
     ]
